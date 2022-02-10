@@ -1,0 +1,22 @@
+@import '~@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '~@fortawesome/fontawesome-free/css/solid.css';
+@import '~@fortawesome/fontawesome-free/css/brands.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #f0f0f0;
+  --dark-color-background: #111827;
+}
+
+[class='dark'] {
+  --color-background: var(--dark-color-background);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+  }
+}
