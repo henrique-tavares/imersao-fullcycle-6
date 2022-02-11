@@ -1,0 +1,8 @@
+{
+  "name": "Go-microservice",
+  "dockerComposeFile": "./docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/go/src",
+  "shutdownAction": "stopCompose",
+  "extensions": ["golang.go", "christian-kohler.path-intellisense", "redhat.vscode-yaml"],
+}
